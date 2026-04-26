@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel", "cython>=3.0.0", "numpy>=1.21.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "entrap"
+version = "1.0.0"
+authors = [{ name = "Muhammad Akmal Husain" }]
+license = { text = "MIT" }
+requires-python = ">=3.8"
+dependencies = [
+    "numpy>=1.21.0",
+    "cython>=3.0.0",
+    "scikit-learn>=1.0.0",
+    "scipy>=1.7.0",
+    "hdbscan>=0.8.27",
+    "ripser>=0.6.0",
+    "kneed>=0.8.0",
+    "joblib>=1.1.0",
+    "matplotlib>=3.5.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["entrap*"]

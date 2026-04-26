@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: entrap
+Version: 1.0.0
+Author: Muhammad Akmal Husain
+License: MIT
+Requires-Python: >=3.8
+Requires-Dist: numpy>=1.21.0
+Requires-Dist: cython>=3.0.0
+Requires-Dist: scikit-learn>=1.0.0
+Requires-Dist: scipy>=1.7.0
+Requires-Dist: hdbscan>=0.8.27
+Requires-Dist: ripser>=0.6.0
+Requires-Dist: kneed>=0.8.0
+Requires-Dist: joblib>=1.1.0
+Requires-Dist: matplotlib>=3.5.0
+Dynamic: requires-python
